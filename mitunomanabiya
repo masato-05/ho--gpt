@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>蜜の学び舎</title>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+JP:wght@400;700&display=swap" rel="stylesheet">
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Noto Serif JP', serif;
+      background-color: #fff8f0;
+      color: #4a2c2a;
+    }
+    header {
+      background: linear-gradient(135deg, #f7c873, #f4a261);
+      padding: 60px 20px;
+      text-align: center;
+      color: white;
+    }
+    header h1 {
+      font-size: 3em;
+      margin: 0;
+    }
+    header p {
+      font-size: 1.2em;
+      margin-top: 10px;
+    }
+    nav {
+      background-color: #e76f51;
+      display: flex;
+      justify-content: center;
+      gap: 30px;
+      padding: 15px;
+    }
+    nav a {
+      color: white;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    section {
+      padding: 60px 20px;
+      max-width: 1000px;
+      margin: auto;
+    }
+    .card-container {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 20px;
+    }
+    .card {
+      background: white;
+      padding: 20px;
+      border-radius: 15px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    }
+    .card h3 {
+      margin-top: 0;
+    }
+    footer {
+      background-color: #4a2c2a;
+      color: white;
+      text-align: center;
+      padding: 30px 20px;
+    }
+    .btn {
+      display: inline-block;
+      margin-top: 15px;
+      padding: 10px 20px;
+      background-color: #f4a261;
+      color: white;
+      border-radius: 25px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>蜜の学び舎</h1>
+  <p>やさしく、深く、甘く学ぶ場所</p>
+</header>
+
+<nav>
+  <a href="#about">蜜の学び舎とは</a>
+  <a href="#courses">講座一覧</a>
+  <a href="#contact">お問い合わせ</a>
+</nav>
+
+<section id="about">
+  <h2>蜜の学び舎とは</h2>
+  <p>
+    蜜の学び舎は、知識をただ詰め込むのではなく、じっくり味わいながら身につける学びの空間です。
+    一人ひとりのペースを大切にし、「わかった！」の瞬間を増やしていきます。
+  </p>
+</section>
+
+<section id="courses">
+  <h2>講座一覧</h2>
+  <div class="card-container">
+    <div class="card">
+      <h3>基礎学習サポート</h3>
+      <p>学校の授業内容をしっかり理解するための個別サポート。</p>
+    </div>
+    <div class="card">
+      <h3>プログラミング入門</h3>
+      <p>楽しく学べるプログラミング講座。初心者歓迎！</p>
+    </div>
+    <div class="card">
+      <h3>探究プロジェクト</h3>
+      <p>自分の「好き」を深掘りするオリジナル学習プログラム。</p>
+    </div>
+  </div>
+</section>
+
+<section id="contact">
+  <h2>お問い合わせ</h2>
+  <p>体験授業やご質問はお気軽にご連絡ください。</p>
+  <a href="mailto:info@mitsunomanabiya.jp" class="btn">メールで問い合わせ</a>
+</section>
+
+<footer>
+  <p>© 2026 蜜の学び舎 All Rights Reserved.</p>
+</footer>
+
+</body>
+</html>
